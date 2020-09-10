@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form sederhana</title>
+</head>
+<body>
+    <form action="/path">
+        <fieldset>
+            <legend> <b>Formulir Calon Pegawai</b> </legend><br>
+            <label for="name"><b>Nama :</b></label>
+            <input type="text" name="Nama"/><br><br>
+            <label for="address"><b>Alamat :</b></label>
+            <input type="text" name="Alamat"/><br><br>
+            <label for="Password"><b>Password :</b></label>
+            <input type="password" name="Password"/><br><br>
+            <label for="Jenis Kelamin"><b>Jenis Kelamin :</b></label>
+            <input type="radio" name="Jenis Kelamin" value="Laki-laki"/>Laki-laki
+            <input type="radio" name="Jenis Kelamin" value="Perempuan"/>Perempuan<br><br> 
+            <label for="name"><b> Bahasan pemrograman yang dikuasai : </b></label>
+            <input type="checkbox" name="Bahasa pemrograman yang dikuasai" value="Web"/><b>Web</b>
+            <input type="checkbox" name="Bahasa pemrograman yang dikuasai" value="MOBILE"/><b>MOBILE</b>
+            <input type="checkbox" name="Bahasa pemrograman yang dikuasai" value="DESKTOP"/><b>DESKTOP</b><br><br>
+            <label for="name"><b>Kota asal :</b></label>
+            <select>
+                <option value="Jakarta">Jakarta</option>
+                <option value="Semarang">Semarang</option>
+                <option value="Manado">Manado</option>
+                <option value="Bali">Bali</option>
+                <option value="Jogja">Jogja</option>
+            </select> <br><br>
+            <p><b>Apa yang membuat kami harus memilih anda?</b></p>
+            <textarea rows="15" cols="75" placeholder="Tulis jawaban anda disini..."></textarea><br><br>
+            <button>Proses</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>

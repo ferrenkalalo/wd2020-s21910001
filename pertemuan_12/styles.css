@@ -1,0 +1,54 @@
+/* p{
+    color:skyblue;
+}
+p.error{
+    color : rgb(243, 89, 89)
+}
+p.success.feedback{
+    color : rgb(107, 106, 106);
+    border : 3px double #41aea9;
+} */
+
+#tuperware{
+    background-color: #d3dbff;
+}
+#jangsampeilang{
+    background-color: #cca8e9;
+}
+div .error{
+    color:rgb(255, 133, 154);
+}
+
+a[href]{
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #fcbad3;
+}
+
+a[href*="google"]{
+    background-color: #fe7171;
+}
+
+a[href$=".ac.id"]{
+    background-color: #ffb0b0;
+}
+
+h1:hover{
+    color:#f6f6f6;
+    background-color:#ffc7c7 ;
+}
+
+h2:hover{
+    color:#ffe2e2;
+    background-color: #ffc7c7 ;
+}
+
+p::selection{
+    background-color:#fccbcb ;
+    color:#f6f6f6;
+}
+
+a::before{
+    content:"Link-"
+}

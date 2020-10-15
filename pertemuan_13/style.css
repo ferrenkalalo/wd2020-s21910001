@@ -1,0 +1,23 @@
+
+.img1{
+    display: block;
+    background-color: #ffeadb;
+    padding: 20px;
+    border : 10px solid #ff9a76;
+}
+
+.img2{
+    display: block;
+    background-color: #ffeadb;
+    padding: 20px;
+    border : 10px solid #ff9a76;
+    margin-left: 180px;
+}
+
+.img3{
+    display: block;
+    background-color: #ffeadb;
+    padding: 20px;
+    border : 10px solid #ff9a76;
+    margin-left: 360px;
+}

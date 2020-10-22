@@ -1,0 +1,24 @@
+h1{
+    font-size: 5rem;
+    color : rgb(124, 203, 235);
+}
+
+p{
+    font: 2rem;
+    color : rgb(253, 135, 154);
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width : 900px)
+{
+    h1{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width : 400px)
+{
+    img{
+        display: block;
+
+    }
+} 

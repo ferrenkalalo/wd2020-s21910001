@@ -57,3 +57,16 @@ let tinggiB = tinggi * tinggi;
 let BMI = berat / tinggiB;
 console.log("BMI anda = " + BMI);
 
+function BMIclassification(){
+    if(BMI<18.5){
+        console.log("Kategori : Underweight");
+    } else if(BMI >=18.5 && BMI <= 24.9){
+        console.log("Kategori : Normal");
+    } else if(BMI >=25 && BMI <= 29.9){
+        console.log("Kategori : Overweight");
+    } else if(BMI >=30){
+        console.log("Kategori : Obesitas");
+    } 
+}
+
+BMIclassification();
